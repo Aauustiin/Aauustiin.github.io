@@ -148,6 +148,17 @@ body::before {
 .social--lw       { --fill: #c3dcb4; }
 .social--linkedin { --fill: #b9d4ee; }
 .social--github   { --fill: #d6c8ec; }
+.social--email    { --fill: #efe7a4; }   /* pastel lemon: the hue gap the others leave */
+
+.social--email svg {
+  width: 25px;
+  height: 25px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
 .lw-mark {
   font-family: Georgia, "Times New Roman", serif;
